@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,44 @@ a {
 
 * {
   box-sizing: border-box;
+  cursor: none !important;
+}
+
+h {
+  font-size: 2.5vw;
+}
+h2 {
+  font-size: 2vw;
+}
+
+/* ::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: red;
+  outline: 1px solid slategrey;
+} */
+
+.cursor {
+  position: fixed;
+  left: 8px;
+  top: 14px;
+  width: 32px;
+  /* 
+  border-radius: 16px;
+  background-color: black; */
+  z-index: 100;
+  pointer-events: none;
+}
+.nav img {
+  width: 14vw;
 }
