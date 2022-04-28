@@ -5,7 +5,11 @@ const description = () => {
 
       <img className="  pb-10 " src="/p2.1/des1.jpg" />
 
-      <a href="https://realgoodweb.netlify.app/" target="_blank">
+      <a
+        href="https://realgoodweb.netlify.app/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="  pb-10 " src="/p2.1/des2.jpg" />
       </a>
 

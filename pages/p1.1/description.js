@@ -6,7 +6,11 @@ const description = () => {
       <img src="/p1.1/title.jpg" />
       <img className="  pb-10 " src="/p1.1/des1.jpg" />
 
-      <a href="https://whoruthishalloween.xyz/" target="_blank">
+      <a
+        href="https://whoruthishalloween.xyz/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="  pb-10 " src="/p1.1/des2.jpg" />
       </a>
 
