@@ -8,6 +8,7 @@ const final = () => {
         <ReactPlayer
           width="50vw"
           height="50vw"
+          controls={true}
           url="https://vimeo.com/703545832"
           className="m-2"
           loop
@@ -15,6 +16,7 @@ const final = () => {
         <ReactPlayer
           width="50vw"
           height="50vw"
+          controls={true}
           url="https://vimeo.com/703545838"
           className="m-2"
           loop

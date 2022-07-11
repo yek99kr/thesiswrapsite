@@ -6,6 +6,7 @@ const final = () => {
       <img className=" m-auto  w-[28vw]" src="/p1.2/final1.jpg" />
       <div className="grid place-content-center pb-10">
         <ReactPlayer
+          controls={true}
           width="40vw"
           height="40vw"
           url="https://vimeo.com/683566827"
@@ -13,6 +14,7 @@ const final = () => {
           loop
         />
         <ReactPlayer
+          controls={true}
           width="40vw"
           height="40vw"
           url="https://vimeo.com/683566849"
@@ -20,6 +22,7 @@ const final = () => {
           loop
         />
         <ReactPlayer
+          controls={true}
           width="40vw"
           height="40vw"
           url="https://vimeo.com/683566869"
@@ -27,6 +30,7 @@ const final = () => {
           loop
         />
         <ReactPlayer
+          controls={true}
           width="40vw"
           height="40vw"
           url="https://vimeo.com/683566887"
@@ -34,6 +38,7 @@ const final = () => {
           loop
         />
         <ReactPlayer
+          controls={true}
           width="40vw"
           height="40vw"
           url="https://vimeo.com/683566906"
@@ -41,6 +46,7 @@ const final = () => {
           loop
         />
         <ReactPlayer
+          controls={true}
           width="40vw"
           height="40vw"
           url="https://vimeo.com/683566920"
@@ -48,6 +54,7 @@ const final = () => {
           loop
         />
         <ReactPlayer
+          controls={true}
           width="40vw"
           height="40vw"
           url="https://vimeo.com/683566939"
@@ -55,6 +62,7 @@ const final = () => {
           loop
         />
         <ReactPlayer
+          controls={true}
           width="40vw"
           height="40vw"
           url="https://vimeo.com/683566952"
